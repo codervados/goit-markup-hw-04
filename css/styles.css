@@ -383,15 +383,19 @@ button {
   margin-top: 72px;
 }
 
+.customer {
+  /* width: 168px; */
+  flex-basis: calc((100% - 24px * 5) / 6);
+}
+
 .customer-link {
-  display: flex;
-  height: 88px;
   border: 1px solid;
   color: var(--customers-color-grey);
   border-radius: 4px;
   align-items: center;
   justify-content: center;
-  width: 168px;
+  display: flex;
+  height: 88px;
 }
 
 .customer-link:hover,
